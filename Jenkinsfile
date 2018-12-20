@@ -10,11 +10,11 @@ pipeline {
       }
    }
 
-   stage('Run server') {
-   steps {
-      sh 'ionic serve'
-     }
-  }
+  //  stage('Run server') {
+  //  steps {
+  //     sh 'ionic serve'
+  //    }
+  // }
 
   //  stage('IOS Build') {
   //  steps {

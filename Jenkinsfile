@@ -16,5 +16,4 @@ pipeline {
          sh 'ionic build browser --prod --release'
       }
    }
- }
 }
